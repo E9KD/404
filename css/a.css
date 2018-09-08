@@ -32,6 +32,7 @@ ul{font-size:0px;}
     top: 10%;
     left: 10%;
     animation: b 10s infinite;
+    animation-direction:alternate;
 }
 @keyframes b {
     from {top: 10%;}
@@ -41,6 +42,7 @@ ul{font-size:0px;}
     top: 40%;
     left: 60%;
     animation: c 10s infinite;
+    animation-direction:alternate;
 }
 @keyframes c {
     from {top: 40%;}
@@ -50,6 +52,7 @@ ul{font-size:0px;}
     top: 80%;
     left: 20%;
     animation: d 10s infinite;
+    animation-direction:alternate;
 }
 @keyframes d {
     from {top: 80%;}
@@ -60,6 +63,7 @@ ul{font-size:0px;}
     top: 30%;
     left: 50%;
     animation: e 10s infinite;
+    animation-direction:alternate;
 }
 @keyframes e {
     from {top: 30%;}

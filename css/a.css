@@ -31,24 +31,50 @@ ul{font-size:0px;}
 .yun0 {
     top: 10%;
     left: 10%;
+    animation: b 10s infinite;
+}
+@keyframes b {
+    from {top: 10%;}
+    to {top: 20%}
 }
 .yun1 {
     top: 40%;
     left: 60%;
+    animation: c 10s infinite;
+}
+@keyframes c {
+    from {top: 40%;}
+    to {top: 50%}
 }
 .yun2 {
     top: 80%;
     left: 20%;
+    animation: d 10s infinite;
+}
+@keyframes d {
+    from {top: 80%;}
+    to {top: 70%}
 }
 .bird {
     position: absolute;
     top: 30%;
     left: 50%;
+    animation: e 10s infinite;
+}
+@keyframes e {
+    from {top: 30%;}
+    to {top: 40%}
 }
 .san {
     position: absolute;
     top: 15%;
     left: 15%;
+    animation: a 5s infinite;
+    animation-direction:alternate;
+}
+@keyframes a {
+    from {top: 15%;}
+    to {top: 20%}
 }
 .title {
     position: absolute;

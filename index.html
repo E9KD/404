@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>比尔高</title>
+<link href="css/a.css" rel="stylesheet" type="text/css" />
+<script src='./js//jquery-1.7.2.min.js'></script>
+
+</head>
+<body>
+<div class="mianBox">
+	<img src="images/yun0.png" alt="" class="yun yun0" />
+	<img src="images/yun1.png" alt="" class="yun yun1" />
+	<img src="images/yun2.png" alt="" class="yun yun2" />
+	<img src="images/bird.png" alt="" class="bird" />
+	<img src="images/san.png" alt="" class="san" />
+	<div class="title">
+		<p class="text">网站筹备中</p>
+		<p class="text">敬请期待</p>
+	</div>
+</div>
+<!-- <div class="a">
+	<p class="title">敬请期待</p>
+</div> -->
+<script type="text/javascript">
+	$(function(){
+		var winheight=$(window).height()
+	var winwidth=$(window).width()
+	console.log(winwidth);
+	console.log(winheight);
+	$('.mianBox').css({
+		'height':winheight,
+		'width':winwidth
+	})
+	})
+</script>
+</body>
+</html>

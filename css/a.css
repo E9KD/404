@@ -52,7 +52,7 @@ ul{font-size:0px;}
 }
 .title {
     position: absolute;
-    top: 55%;
+    bottom: 20%;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 99;
@@ -60,5 +60,7 @@ ul{font-size:0px;}
 }
 .text {
     font-size: 7rem;
-    font-weight: lighter；
+    font-weight: lighter;
+    font-family: Consolas,Monaco,monospace;
+    color:#FF9900;
 }
